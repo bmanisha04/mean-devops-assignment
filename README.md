@@ -65,25 +65,21 @@ Application Access URL:
 http://20.193.144.86
 
 📸 Screenshots
-✅ 1. CI/CD Pipeline Execution
+## 📸 CI/CD Pipeline Execution
+![Jenkins Pipeline](screenshots/jenkins-success.png)
 
-(Screenshot of Jenkins successful build)
+## 🐳 Docker Image Build & Push
+![DockerHub Frontend](screenshots/dockerhub-frontend.png)
+![DockerHub Backend](screenshots/dockerhub-backend.png)
 
-✅ 2. Docker Image Build & Push
+## 🚀 Application Deployment
+![Docker PS](screenshots/docker-ps.png)
 
-(Screenshot of Docker Hub repositories showing latest images)
+## 🌐 Working Application UI
+![App Running](screenshots/app-running.png)
 
-✅ 3. Application Deployment
-
-(Screenshot of docker ps running containers on Azure VM)
-
-✅ 4. Working UI
-
-(Screenshot of application running in browser on port 80)
-
-✅ 5. Nginx Configuration
-
-(Screenshot showing Nginx configuration file)
+## 🔁 Nginx Configuration
+![Nginx Config](screenshots/nginx-config.png)
 
 🎯 Output
 
