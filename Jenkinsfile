@@ -47,7 +47,7 @@ pipeline {
                 )]) {
                     sh """
                     sshpass -p $VM_PASS ssh -o StrictHostKeyChecking=no $VM_USER@$VM_IP '
-                        cd mean-app &&
+                        cd /mean-app &&
                         docker-compose pull &&
                         docker-compose down &&
                         docker-compose up -d
