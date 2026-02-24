@@ -19,10 +19,10 @@ pipeline {
 
         stage('Build Docker Images') {
             steps {
-                sh 'docker build -t $IMAGE_BACKEND:latest ./backend'
-                sh 'docker build -t $IMAGE_FRONTEND:latest ./frontend'
-            }
-        }
+                 sh 'docker build -t $IMAGE_BACKEND:latest ./crud-dd-task-mean-app/backend'
+                 sh 'docker build -t $IMAGE_FRONTEND:latest ./crud-dd-task-mean-app/frontend'
+    }
+}
 
         stage('Push to DockerHub') {
             steps {
