@@ -142,9 +142,3 @@ This project demonstrates a complete end-to-end DevOps workflow including:
 - Cloud infrastructure setup  
 - Reverse proxy configuration  
 - Production-style deployment strategy  
-
-
-
-It will look 10x better instantly.
-
-If still not good, send screenshot — I’ll fix layout like a senior DevOps engineer would 💪🔥
